@@ -6,7 +6,7 @@
   "bin": {
     "poet": "./bin/run.js"
   },
-  "bugs": "https://github.com/poet/poet/issues",
+  "bugs": "https://github.com/k70suK3-k06a7ash1/poet/issues",
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
@@ -37,7 +37,7 @@
     "./dist",
     "./oclif.manifest.json"
   ],
-  "homepage": "https://github.com/poet/poet",
+  "homepage": "https://github.com/k70suK3-k06a7ash1/poet",
   "keywords": [
     "oclif"
   ],
@@ -59,7 +59,7 @@
       }
     }
   },
-  "repository": "poet/poet",
+  "repository": "k70suK3-k06a7ash1/poet",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint",
