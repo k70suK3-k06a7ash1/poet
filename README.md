@@ -20,7 +20,7 @@ $ npm install -g poet
 $ poet COMMAND
 running command...
 $ poet (--version)
-poet/0.0.0 darwin-arm64 node-v22.10.0
+poet/0.0.0 linux-x64 node-v20.19.1
 $ poet --help [COMMAND]
 USAGE
   $ poet COMMAND
@@ -29,8 +29,6 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`poet hello PERSON`](#poet-hello-person)
-* [`poet hello world`](#poet-hello-world)
 * [`poet help [COMMAND]`](#poet-help-command)
 * [`poet plugins`](#poet-plugins)
 * [`poet plugins add PLUGIN`](#poet-plugins-add-plugin)
@@ -42,48 +40,6 @@ USAGE
 * [`poet plugins uninstall [PLUGIN]`](#poet-plugins-uninstall-plugin)
 * [`poet plugins unlink [PLUGIN]`](#poet-plugins-unlink-plugin)
 * [`poet plugins update`](#poet-plugins-update)
-
-## `poet hello PERSON`
-
-Say hello
-
-```
-USAGE
-  $ poet hello PERSON -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
-
-FLAGS
-  -f, --from=<value>  (required) Who is saying hello
-
-DESCRIPTION
-  Say hello
-
-EXAMPLES
-  $ poet hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
-```
-
-_See code: [src/commands/hello/index.ts](https://github.com/poet/poet/blob/v0.0.0/src/commands/hello/index.ts)_
-
-## `poet hello world`
-
-Say hello world
-
-```
-USAGE
-  $ poet hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ poet hello world
-  hello world! (./src/commands/hello/world.ts)
-```
-
-_See code: [src/commands/hello/world.ts](https://github.com/poet/poet/blob/v0.0.0/src/commands/hello/world.ts)_
 
 ## `poet help [COMMAND]`
 
