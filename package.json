@@ -1,9 +1,24 @@
 {
-  "dependencies": {
-    "ink": "^5.2.1",
-    "react": "^18.3.1"
+  "name": "poet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k70suK3-k06a7ash1/poet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/k70suK3-k06a7ash1/poet/issues"
+  },
+  "homepage": "https://github.com/k70suK3-k06a7ash1/poet#readme",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "oclif": "^4.17.46"
   }
 }
