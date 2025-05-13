@@ -4,7 +4,8 @@ name: version, tag and github release
 on:
   push:
     branches: [main]
-
+permissions:
+  contents: write 
 jobs:
   release:
     runs-on: ubuntu-latest
